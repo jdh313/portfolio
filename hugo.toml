@@ -1,3 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jdh.onl/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Jacob Hoehler'
+
+[[module.imports]]
+path = 'github.com/mrmierzejewski/hugo-theme-console'
+
+[params]
+author = 'Jacob Hoehler'
