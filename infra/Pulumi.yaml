@@ -1,0 +1,10 @@
+name: Portfolio
+description: The infrastructure for my portfolio/landing page.
+runtime:
+  name: nodejs
+  options:
+    packagemanager: bun
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
