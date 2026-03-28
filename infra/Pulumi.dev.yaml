@@ -3,3 +3,4 @@ environment:
 config:
   Portfolio:cloudflareAccountId:
     secure: AAABAL/KqOWpc/mZKdeFp5Cn4nHkyjjEod3nTJs3W4+CrmrINeNuSBlNpvvWOxDl74Quw0GD+Pits6TPHJR4Zw==
+  Portfolio:cloudflareZoneId: 8a3a0f2a4b7077da72afc76d4cbc64b8
