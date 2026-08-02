@@ -2,5 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "group:allNonMajor"],
   "schedule": ["before 6am on saturday"],
-  "minimumReleaseAge": "3 days"
+  "minimumReleaseAge": "3 days",
+  "packageRules": [
+    {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7",
+      "description": "Pulumi compiles programs at runtime via the JS compiler API, which TypeScript 7's native port drops. Revisit once TS 7.1 ships a new API and Pulumi supports it."
+    }
+  ]
 }
